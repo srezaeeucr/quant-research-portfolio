@@ -1,3 +1,9 @@
+---
+title: Case Study — Multiple Testing Correction
+---
+
+[← Back to overview](../index.html)
+
 # Case Study — Multiple Testing Correction
 
 > With 1,596 simultaneous tests at α=0.05, roughly 80 false-positive

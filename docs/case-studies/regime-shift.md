@@ -1,3 +1,9 @@
+---
+title: Case Study — Regime Shift Detection
+---
+
+[← Back to overview](../index.html)
+
 # Case Study — Regime Shift Detection
 
 > Historical robustness is not a guarantee of forward performance.

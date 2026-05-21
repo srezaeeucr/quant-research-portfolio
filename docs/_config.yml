@@ -1,0 +1,11 @@
+title: Quant Research Portfolio
+description: A statistical research framework for intraday equity trading strategies.
+theme: jekyll-theme-cayman
+
+# GitHub Pages will host this site from /docs on the main branch.
+
+# Repo metadata for Jekyll variables.
+github:
+  repository_nwo: srezaeeucr/quant-research-portfolio
+  repository_url: https://github.com/srezaeeucr/quant-research-portfolio
+show_downloads: false

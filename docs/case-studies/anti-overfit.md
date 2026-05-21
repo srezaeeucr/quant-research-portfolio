@@ -1,3 +1,9 @@
+---
+title: Case Study — Anti-Overfit Discipline
+---
+
+[← Back to overview](../index.html)
+
 # Case Study — Anti-Overfit Discipline
 
 > When the "best" answer changes with every test, the test framework itself
