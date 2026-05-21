@@ -1,0 +1,14 @@
+alpaca-trade-api
+apscheduler
+pandas
+numpy
+pyyaml
+python-dotenv
+requests
+schedule
+pytz
+sqlalchemy
+streamlit
+plotly
+yfinance
+pytest

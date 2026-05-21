@@ -1,0 +1,43 @@
+# Example research configuration. Live trading config is NOT included in
+# this portfolio repository — the research framework supports backtest mode
+# only. To run live trading, see the active project repo.
+
+mode: backtest
+account:
+  balance: 500.0
+  max_position_pct: 0.95
+
+active_strategy: orb
+filters:
+  regime_filter: true
+  regime_sma_days: 20
+  vix_threshold: 25
+  max_trades_per_day: 100
+
+risk:
+  daily_loss_limit_pct: 2.0
+  fractional_shares: true
+  max_risk_per_trade_pct: 1.0
+  stop_loss_pct: 0.75
+  reward_risk_ratio: 3.0
+
+strategy:
+  active_strategy: orb
+  volume_multiplier: 1.2
+
+strategy_params:
+  orb:
+    min_breakout_pct: 0.1
+    or_duration_min: 15
+    volume_multiplier: 1.2
+    afternoon_entries: true
+    entry_window_minutes: 360
+
+trading_windows:
+- start: '09:30'
+  end:   '15:50'
+  timezone: America/New_York
+
+symbols:
+- AMD
+- GOOGL
