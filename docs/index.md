@@ -59,7 +59,7 @@ The unadjusted result was statistically robust.
 
 ## Case studies
 
-Three deep-dive write-ups of the methodology in practice:
+Four deep-dive write-ups of the methodology in practice:
 
 ### **[Anti-overfit discipline →](case-studies/anti-overfit.html)**
 
@@ -76,6 +76,12 @@ META and TSLA — both with 21+ quarterly-stable configurations through 2024 —
 ### **[Multiple testing correction →](case-studies/multiple-testing.html)**
 
 Application of Benjamini-Hochberg FDR and Bonferroni to 1,596 simultaneous tests. The unadjusted result was rock-solid (all 100 passers survived Bonferroni) — and yet 70% of those passers failed out-of-sample. Statistical significance is necessary but not sufficient.
+
+### **[Three big simulations →](case-studies/big-simulation.html)**
+
+Three end-to-end backtests comparing (A) a small mid-range 3-slot configuration, (B) an 18-config "all-in" portfolio of the quad-validated set, and (C) a 12-strategy ranking sweep. The simpler Sim A beats the more ambitious Sim B on out-of-sample data; Sim C's #1 historical strategy (Donchian Breakout) fails on out-of-sample AMD — the same regime-shift pattern that disqualified META and TSLA earlier.
+
+> The most ambitious configuration is worse on the most relevant period. More configurations is not free.
 
 ---
 
